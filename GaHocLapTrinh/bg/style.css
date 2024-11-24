@@ -1,0 +1,10 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: url(./52104-car-Audi-monochrome.jpg);
+    border: 10px dotted red;
+    padding:50px;
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box;
+}

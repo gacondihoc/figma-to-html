@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h2>Thu</h2>
+    <button onclick="showinfo1()"> introduce</button>
+    <h2>Sáng</h2>
+    <button onclick="showinfo2()"> introduce</button>
+    <h2>Cam</h2>
+    <p id="demo"></p>
+    <button onclick="showinfo3(); demo()"> introduce</button>
+    <script>
+        let school ="aiwa";
+        // function showinfo1(){
+        //     let name="トゥ";
+        //     let age="21";
+        //     alert("名前は"+name+"です");
+        //     alert("年齢は"+age+"です");
+        //     alert("学校は"+school+"です");
+
+        // }
+        // function showinfo2(){
+        //     let name="サン";
+        //     let age="25";
+        //     alert("名前は"+name+"です");
+        //     alert("年齢は"+age+"です");
+        //     alert("学校は"+school+"です");
+
+        // }
+        function showinfo3(){
+            let name="Orange";
+            let age="4";
+            alert("名前は"+name+"です");
+            alert("年齢は"+age+"です");
+            alert("学校は"+school+"です");
+            
+
+        }
+        function demo(){
+            document.getElementById("demo").innerHTML = "Text has been changed!";
+        } -->
+    <!-- </script> -->
+    <h1><strong class="text_h1">価格表</strong></h1>
+    <table border = "1">
+        <tr>
+        <th>プラ</th>
+        <th>price</th>
+        <th>people</th>
+        <th>total</th>
+        </tr>
+        <tr>    
+        <td>1</td>
+        <td class="a">4999</td>
+        <td class="b">2</td>
+        <td><button onclick="total(this)">total</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="a">15515</td>
+            <td class="b">3</td>
+            <td><button onclick="total(this)">total</button></td>
+            </tr>
+
+    </table>
+    <script>
+        function total(button){
+            const row = button.parentNode.parentNode;
+            const a = row.querySelector(".a").innerHTML;;
+            const b = row.querySelector(".b").innerHTML;;
+            const total = Number(a)*Number(b);
+            alert(total);
+            
+        }
+    </script>
+
+    
+</body>
+</html>

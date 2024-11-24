@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index1</title>
+    <title>index4</title>
 </head>
 <body>
     <h1>★★★価格表★★★</h1>
@@ -37,33 +37,22 @@
             </tr>
     </table>
     <br>
-    <h3 id="showAnswer" onclick="percentage()">ここに選択された金額が表示されます。</h3>
-    <br>
-    
     <h3>クーポンがあります</h3>
     <h4>20%引きした値段を見ますか</h4>
-    <input type="number" name="cupon" id="cupon" placeholder="例: 20">
+    <input type="number" name="cupon">
     <button onclick="kupon()">値段が見る</button>
-    <div id="result"></div>
     <script>
-       
         let answer=0;
         function total(price,num){
             answer=price*num;
             alert(answer);
            
         }
-        function percentage(){
-            document.getElementById("showAnswer").textContent="選択された金額は"+answer+"円です。";
-        }
         function kupon(){
-            const cupon = parseFloat(document.getElementById("cupon").value);
-            if(answer===0){
+            if(answer==0){
                 alert("ボタンをクリックしてください");
-            }else if (isNaN(cupon) || cupon < 0 || cupon > 100) {
-            alert("有効な割引率を入力してください (0-100)。");
-        }else{
-                document.getElementById("result").innerHTML="<b>選択された金額は"+(answer*cupon/100)+"円です。</b>";
+            }else{
+                alert(answer*0.8);
 
             }
            

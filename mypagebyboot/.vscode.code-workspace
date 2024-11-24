@@ -1,0 +1,67 @@
+{
+	"folders": [
+		{
+			"path": "../.vscode"
+		},
+		{
+			"path": "../function"
+		},
+		{
+			"path": "../GaHocLapTrinh"
+		},
+		{
+			"path": "../homework"
+		},
+		{
+			"path": "../internship"
+		},
+		{
+			"path": "../javascript pm"
+		},
+		{
+			"path": "../lesson1"
+		},
+		{
+			"path": "../lesson2"
+		},
+		{
+			"path": "../lesson3"
+		},
+		{
+			"path": "../lesson4"
+		},
+		{
+			"path": "../lesson5"
+		},
+		{
+			"path": "../mypage"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../mypagebyboot - Copy"
+		},
+		{
+			"path": "../portfolio"
+		},
+		{
+			"path": "../profile"
+		},
+		{
+			"path": "../slider"
+		},
+		{
+			"path": "../study"
+		},
+		{
+			"path": "../tuhoc"
+		},
+		{
+			"path": "../tuhoc-html-css-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "function"
+	}
+}

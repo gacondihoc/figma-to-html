@@ -1,7 +1,12 @@
-h1 ~ h3 {
+h1+h2{
+  color: red;
+}
+div>.p_1{
   color: blue;
 }
-
-div ~ div {
-  color: red;
+h1~h3{
+  color: yellow;
+}
+.demo.demo2{
+color: black;
 }

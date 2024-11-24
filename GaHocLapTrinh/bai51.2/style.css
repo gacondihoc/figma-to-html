@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 99px;
+    width: 100px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-align: center;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}

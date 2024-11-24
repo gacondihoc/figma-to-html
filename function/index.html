@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>練習問題</h1>
+    <h3>私の故郷はどこですか<button id="button" onclick="showanswer()">答えを見る</button></h3>
+    <h3 id="que"></h3>
+    <script>
+        function showanswer(){
+            document.getElementById("que").innerHTML="ベトナム<br>"
+            +"<img src='https://assets-news.housing.com/news/wp-content/uploads/2022/08/23065553/Veitnam-feature-compressed.jpg' alt='ベトナム' style='width:300px; height:auto;'>";
+        document.getElementById("button").remove();
+        }
+    </script>
+</body>
+</html>
